@@ -34,18 +34,23 @@ Lua! What a lovely name. Going into this class, we want to define what we're
 looking to get out of learnnng this language in particular.
 
 And in fact, the primary reason for choosing Lua is because it will allow us to
-learn a programming language without getting too much in our way.
+learn a programming language that looks like, and reads like English. Sometimes
+as programmers languages can "get in our way" because they require us to use
+things like curly braces, semi-colons, and so on to tell the computer when
+something begins or ends. Lua needs to do this too -- tell the computer when
+something begins or ends -- but it does it in a way that is more like speaking
+English.
 
-What do I mean by getting in our way? Well, there are hundreds, if not thousands
-of programming languages available for anyone to use. You'll see all sorts
-of quirky things in programming like so:
+Not sure about what I mean regarding gettinng in our way?  Well, there
+are hundreds, if not thousands of programming languages available for
+anyone to use. You'll see all sorts of quirky things in programming like so:
 
     print("Hello World")
 
 Notice the brackets and the double quotes around the word `Hello World`. Or, you
 may get things like this:
 
-    if (apple == orange) {
+    if ("apple" == "orange") {
         println("Hello World");
     }
 
@@ -115,6 +120,9 @@ _close_ the word (what we call _strings_ in programming). Lua is actually
 telling us in pretty plain English `unfinished string near...`, so that's pretty
 cool.
 
+You'll get better and better at reading these instroctions from Lua and the
+computer as we go on.
+
 Programming languages like Lua help us out here by telling us _Hey! You wrote
 bad code!_ when we do things like this, which we call _errors_, but we need to
 keep our eyes open, as it just makes our lives a bit easier. Let's fix that
@@ -145,26 +153,45 @@ language and an introduction to some of its quirks.
 
 ## What's Possible?
 
+Class Question: How many of you would like to be computer programmers when
+older? (Note: Likely not many, but that's OK as we explain the benefits!)
+
 Programming is all around us. Every device, no matter how simple or complex is
 programmed in some way. We understand not everyone wants to be a software
 engineer, but being comfortable with computers and understanding how to
 logically structure an application will open up other parts of your creative
 brain and perhaps even let you apply programming concepts to other hobbies!
 
-For example, many musicians, woodworkers, artists use programming to help their
+For example, many musicians, doctors, woodworkers, artists use programming to help their
 craft, by either automating ideas, prototyping quick thoughts, or just being
 another tool they can use whenever they need.
 
 Programming is a creative form, and what we'll do in this class is focus on
 embracing those creative aspects of programming while learning the fundamentals.
 
-Because we want to keep it extra fun, we'll work on building interactive art and
-a simple game using Lua. We'll do this with something called a _framework_, and
-that framework is called [love2d](https://love2d.org/)
+Throughout this class we'll start with learning the fundamentals. The first
+several weeks we'll work on learning the major parts of Lua -- and programming
+-- and apply it to text-based applications and interactions.
 
-love2d can make professional games and of course, hobby games! We won't have a
-ton of time to make the most complex game, but we will use our Lua learnings and
-take advantage of love2d to take what we learn and make it a bit more visual.
+Then, Because we want to keep it extra fun, we'll work on building interactive art and
+a simple game using Lua. That'll come near the end of our class, and we'll do
+that together.
+
+## Practice: Printing Your Name
+
+Before we move onto the next lesson today, let's spend 5-10 minutes practicing.
+We'll go around and make sure everyone is able to do this. Use the lua
+interpreter as we showed to print out your name on the screen, like so:
+
+    print("Bartek Ciszkowski")
+
+Try your full name, then try `print` with just your first name. Make sure you
+practice entering the brackets and notice the double quotes around a string. Try
+to break it a little, and then we'll review!
+
+
+
+
 
 In our next lesson, we'll begin to learn more fundamentals, focusing on this
 idea of _assignment_ and _variables_. These concepts are another core part of
