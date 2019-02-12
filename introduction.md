@@ -67,7 +67,7 @@ but sometimes, it's because whoever designed them had certain ideas!
 
 Lua is a programming language that reads a lot like English. For example:
 
-    if apple == orange then
+    if "apple" == "orange" then
         print("Hello World")
     end
 
@@ -120,7 +120,7 @@ _close_ the word (what we call _strings_ in programming). Lua is actually
 telling us in pretty plain English `unfinished string near...`, so that's pretty
 cool.
 
-You'll get better and better at reading these instroctions from Lua and the
+You'll get better and better at reading these instructions from Lua and the
 computer as we go on.
 
 Programming languages like Lua help us out here by telling us _Hey! You wrote
@@ -188,10 +188,6 @@ interpreter as we showed to print out your name on the screen, like so:
 Try your full name, then try `print` with just your first name. Make sure you
 practice entering the brackets and notice the double quotes around a string. Try
 to break it a little, and then we'll review!
-
-
-
-
 
 In our next lesson, we'll begin to learn more fundamentals, focusing on this
 idea of _assignment_ and _variables_. These concepts are another core part of
